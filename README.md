@@ -3,7 +3,7 @@
 A Deep Learning application that predicts whether an IMDB movie review is Positive or Negative using a Simple Recurrent Neural Network (RNN) built with TensorFlow/Keras and deployed using Streamlit.
 
 📸 Application
-![IMDB Movie Review Sentiment Prediction](screenshots/app_screenshot.png)
+![IMDB Movie Review Sentiment Prediction](screenshots/image.png)
 
 
 
