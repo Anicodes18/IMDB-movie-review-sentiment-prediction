@@ -6,7 +6,11 @@ from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
 
 # Load the IMDB dataset word index
-word_index = imdb.get_word_index()
+import json
+
+with open("data/imdb_word_index.json", "r") as f:
+    word_index = json.load(f)
+
 reverse_word_index = {value: key for key, value in word_index.items()}
 
 # Load the pre-trained model with ReLU activation
