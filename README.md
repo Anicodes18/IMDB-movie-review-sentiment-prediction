@@ -7,8 +7,9 @@ A Deep Learning application that predicts whether an IMDB movie review is Positi
 
 
 
-🧠 Model
+## 🧠 Model
 
+```text
 The project uses a Simple RNN for binary sentiment classification.
 
 Movie Review
@@ -34,20 +35,27 @@ Sequence Length	500
 
 The trained model is stored in simple_rnn_imdb.h5.
 
-🛠️ Technologies
+## 🛠️ Technologies
+
+```text
 Python
 TensorFlow / Keras
 NumPy & Pandas
 Scikit-learn
 Matplotlib
 Streamlit
-📂 Project Structure
+
+## 📂 Project Structure
+
+```text
 IMDB-movie-review-sentiment-prediction/
 │
 ├── data/
 │   └── imdb_word_index.json
+│
 ├── screenshots/
 │   └── app_screenshot.png
+│
 ├── embedding.ipynb
 ├── prediction.ipynb
 ├── simplernn.ipynb
@@ -65,7 +73,9 @@ pip install -r requirements.txt
 3. Run the application
 streamlit run main.py
 
-🔑 Key Concepts
+## 🔑 Key Concepts
+
+```text
 Natural Language Processing
 Text preprocessing and sequence padding
 Word embeddings
