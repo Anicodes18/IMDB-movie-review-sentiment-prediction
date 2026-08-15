@@ -4,3 +4,4 @@ numpy
 pandas
 scikit-learn
 matplotlib
+tensorboard==2.15.2
